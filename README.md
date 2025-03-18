@@ -34,7 +34,6 @@ Each index is stored in a vector database and later queried. We use TruLens (a c
 - [llama_index](https://github.com/jerryjliu/llama_index) (formerly GPT Index)
 - [TruLens / Truera evaluation package](https://github.com/trulens/trulens_eval) for feedback evaluations
 - [HuggingFace Transformers](https://github.com/huggingface/transformers) for embeddings
-- A vector database backend (e.g., FAISS) if not using the default in-memory store
 - Additional dependencies listed in `requirements.txt`
 
 ## Setup
