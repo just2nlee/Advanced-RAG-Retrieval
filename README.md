@@ -49,4 +49,15 @@ Each index is stored in a vector database and later queried. We use TruLens (a c
 ## Conclusion
 - In this project, we were able to develop an auto-merging retrieval pipeline for various RAG layers and established an evaluation environment using the Trulens library to assess Context Relevance, Groundedness, and Answer Relevance scores. The results indicate that while adding more layers can enhance RAG performance, higher layers may also introduce inaccuracies. This advanced RAG approach is particularly effective in situations where accuracy is critical, and the evaluation model plays a key role in monitoring performance over time. Furthermore, as it pertains to the sentence-window retrieval pipleine. By increasing the sentence window of the retrieval method it showed mild improvement on the context relevance of the model but minimal to no improvement on groundedness and answer relevance. In conclusion, both advanced RAG pipelines performed better in comparison to the standard basic RAG pipeline which had low groundedness and context relevance scores.
 ## Results
-![2 Sentence Window Enginer](Evaluation/2SentenceWindowEngineEvaluation.png)
+# Sentence Window Evaluations
+- 2 Sentence Window Engine
+![2 Sentence Window Engine](Evaluation/2SentenceWindowEngineEvaluation.png)
+- 3 Sentence Window Engine 
+![3 Sentence Window Engine](Evaluation/3SentenceWindowEngineEvaluation.png)
+# Automerging Evaluations
+- Automerging with 2 Layers
+![Automerging 2 Layers](Evaluation/Automerging2LayerEvaluation.png)
+- Automerging with 3 Layers
+![Automerging 3 Layers](Evaluation/Automerging3LayerEvaluation.png)
+# Standard RAG Evaluation
+![Standard Rag](Evaluation/BasicRagEngineEvaluation.png)
